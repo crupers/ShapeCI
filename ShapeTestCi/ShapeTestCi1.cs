@@ -37,7 +37,7 @@ namespace ShapeTestCi
             rec.Height = 5;
             Assert.Throws<ArgumentException>(() => rec.Width = -120);
         }
-       /* [Fact]
+       [Fact]
         public void RectanglFailedFatal_Test()
         {
            Rectangle rec = new Rectangle();
@@ -47,7 +47,7 @@ namespace ShapeTestCi
             double Arearez = rec.Area(); 
             Assert.Equal(FatalResult, Arearez);
 
-        }*/
+        }
 
     }
 }
