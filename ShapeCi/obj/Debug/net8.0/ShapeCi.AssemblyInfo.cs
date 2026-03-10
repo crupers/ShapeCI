@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShapeCi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa1622bf24bb37d93061c54ea960fe3f408b604b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96baac2409f1e8d43564a3d5da39902e6fee4b19")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShapeCi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShapeCi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
