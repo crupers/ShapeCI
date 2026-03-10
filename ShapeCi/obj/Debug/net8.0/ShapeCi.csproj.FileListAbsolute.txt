@@ -1,0 +1,12 @@
+C:\Users\zelen\OneDrive\Рабочий стол\учеба\ОКФКС\ShapeCi\ShapeCi\bin\Debug\net8.0\ShapeCi.deps.json
+C:\Users\zelen\OneDrive\Рабочий стол\учеба\ОКФКС\ShapeCi\ShapeCi\bin\Debug\net8.0\ShapeCi.dll
+C:\Users\zelen\OneDrive\Рабочий стол\учеба\ОКФКС\ShapeCi\ShapeCi\bin\Debug\net8.0\ShapeCi.pdb
+C:\Users\zelen\OneDrive\Рабочий стол\учеба\ОКФКС\ShapeCi\ShapeCi\obj\Debug\net8.0\ShapeCi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zelen\OneDrive\Рабочий стол\учеба\ОКФКС\ShapeCi\ShapeCi\obj\Debug\net8.0\ShapeCi.AssemblyInfoInputs.cache
+C:\Users\zelen\OneDrive\Рабочий стол\учеба\ОКФКС\ShapeCi\ShapeCi\obj\Debug\net8.0\ShapeCi.AssemblyInfo.cs
+C:\Users\zelen\OneDrive\Рабочий стол\учеба\ОКФКС\ShapeCi\ShapeCi\obj\Debug\net8.0\ShapeCi.csproj.CoreCompileInputs.cache
+C:\Users\zelen\OneDrive\Рабочий стол\учеба\ОКФКС\ShapeCi\ShapeCi\obj\Debug\net8.0\ShapeCi.sourcelink.json
+C:\Users\zelen\OneDrive\Рабочий стол\учеба\ОКФКС\ShapeCi\ShapeCi\obj\Debug\net8.0\ShapeCi.dll
+C:\Users\zelen\OneDrive\Рабочий стол\учеба\ОКФКС\ShapeCi\ShapeCi\obj\Debug\net8.0\refint\ShapeCi.dll
+C:\Users\zelen\OneDrive\Рабочий стол\учеба\ОКФКС\ShapeCi\ShapeCi\obj\Debug\net8.0\ShapeCi.pdb
+C:\Users\zelen\OneDrive\Рабочий стол\учеба\ОКФКС\ShapeCi\ShapeCi\obj\Debug\net8.0\ref\ShapeCi.dll

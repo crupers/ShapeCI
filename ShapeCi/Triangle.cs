@@ -11,9 +11,9 @@ namespace ShapeCi
         private double _sideA;
         private double _sideB;
         private double _sideC;
-        public double SideA { get {  return _sideA; } set { if(value > 0) _sideA = value; else throw new ArgumentException("Эта сторона должна быть больше 0"); } }
-        public double SideB { get { return _sideB; } set { if (value > 0) _sideB = value; else throw new ArgumentException("Эта сторона должна быть больше 0"); } }
-        public double SideC { get { return _sideC; } set { if (value > 0) _sideC = value; else throw new ArgumentException("Эта сторона должна быть больше 0"); } }
+        public double SideA { get {  return _sideA; } set {  _sideA = value; } }
+        public double SideB { get { return _sideB; } set {  _sideB = value; } }
+        public double SideC { get { return _sideC; } set { _sideC = value; } }
         public override double Perimeter()
         {
             return SideA + SideB + SideC;

@@ -10,15 +10,16 @@ namespace ShapeCi
     {
         private double _width;
         private double _height;
-        public double Width { get { return _width; } set { if (_width > 0) _width = value; else throw new ArgumentException("Ширина должна быть больше 0"); } }
-        public double Height { get { return _height; } set { if (_height > 0) _height = value; else throw new ArgumentException("Высота должна быть больше 0"); } }
+        public double Width { get { return _width; } set { if (value > 0) _width = value; else throw new ArgumentException("Ширина должна быть больше 0");
+            } }
+        public double Height { get { return _height; } set{if (value > 0) _height = value;  else throw new ArgumentException("Ширина должна быть больше 0");
+            } }
 
 
 
         public override double Area() // площадь
         {
-           
-            return Width * Height;
+                return Width * Height;           
         }
         public override double Perimeter()
         {
