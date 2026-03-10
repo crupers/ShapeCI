@@ -37,17 +37,48 @@ namespace ShapeTestCi
             rec.Height = 5;
             Assert.Throws<ArgumentException>(() => rec.Width = -120);
         }
-       /* [Fact]
-        public void RectanglFailedFatal_Test()
-        {
-           Rectangle rec = new Rectangle();
-            rec.Width = 4;
-            rec.Height= 5;
-            double FatalResult = 100;
-            double Arearez = rec.Area(); 
-            Assert.Equal(FatalResult, Arearez);
+        /* [Fact]
+         public void RectanglFailedFatal_Test()
+         {
+            Rectangle rec = new Rectangle();
+             rec.Width = 4;
+             rec.Height= 5;
+             double FatalResult = 100;
+             double Arearez = rec.Area(); 
+             Assert.Equal(FatalResult, Arearez);
 
-        }*/
+         }*/
+        [Theory]
+        [InlineData(3,4,5)]
+        public void Triangle_Area_ShouldReturnCorrectValue(double a,double b,double c)
+        {
+
+            Triangle tr = new Triangle();     
+            tr.SideA = a; tr.SideB = b; tr.SideC = c;
+            double expectedArea = 6;         
+            double Arearez = tr.Area();
+            Assert.Equal(expectedArea, Arearez);
+        }
+
+        [Theory]
+        [InlineData(3, 4, 5)]
+        public void Triangle_Perimeter_ShouldReturnCorrectValue(double a, double b, double c)
+        {
+            Triangle tr = new Triangle();
+            tr.SideA = a; tr.SideB = b; tr.SideC = c;
+            double expectedPerimeter = 12;
+            double actualPerimeter = tr.Perimeter();
+            Assert.Equal(expectedPerimeter, actualPerimeter);
+        }
+        [Theory]
+        [InlineData(3, 4, 5)]
+        public void Triangle_Area_ThisTestWillFailIntentionally(double a, double b, double c)
+        {           
+            var triangle = new Triangle();
+            double wrongExpectedArea = 10;            
+            double actualArea = triangle.Area();        
+            Assert.Equal(wrongExpectedArea, actualArea);
+        }
 
     }
 }
