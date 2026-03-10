@@ -75,7 +75,7 @@ namespace ShapeTestCi
         public void Triangle_Area_ThisTestWillFailIntentionally(double a, double b, double c)
         {           
             var triangle = new Triangle();
-            double wrongExpectedArea = 10;            
+            double wrongExpectedArea = 6;            
             double actualArea = triangle.Area();        
             Assert.Equal(wrongExpectedArea, actualArea);
         }   
