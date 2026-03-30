@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShapeTestCi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa1622bf24bb37d93061c54ea960fe3f408b604b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93ca45f2527aada386d0be386865b1781a3c9f2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShapeTestCi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShapeTestCi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

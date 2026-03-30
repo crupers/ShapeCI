@@ -19,8 +19,8 @@ namespace ShapeCi
             return SideA + SideB + SideC;
         }
         public override double Area()
-        {
-            double p = Perimeter() / 2; 
+        {//6
+            double p = Perimeter() / 2; //3    //2                //1
             return Math.Sqrt(p * (p - SideA) * (p - SideB) * (p - SideC));
         }
         public override string ToString()
