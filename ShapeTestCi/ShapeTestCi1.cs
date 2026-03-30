@@ -70,15 +70,7 @@ namespace ShapeTestCi
             double actualPerimeter = tr.Perimeter();
             Assert.Equal(expectedPerimeter, actualPerimeter);
         }
-        [Theory]
-        [InlineData(3, 4, 5)]
-        public void Triangle_Area_ThisTestWillFailIntentionally(double a, double b, double c)
-        {           
-            var triangle = new Triangle();
-            double wrongExpectedArea = 6;            
-            double actualArea = triangle.Area();        
-            Assert.Equal(wrongExpectedArea, actualArea);
-        }   
+     
 
     }
 }
